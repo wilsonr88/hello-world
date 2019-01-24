@@ -1,0 +1,33 @@
+name = "Jordan"
+
+def upper(string)
+  string.upcase
+end
+
+def lower(string)
+  string.downcase
+end
+
+def random_name
+  ["Ollie", "Ana"].sample
+end
+
+def random_case(string)
+  [upper(string), lower(string)].sample
+end
+
+
+# Write code between this line...
+
+# ...and between this line
+
+puts "My name is #{random_case(name)}"
+
+
+//Now we'd like you to return one name randomly in either case. Your output from a method called random_case should either be:
+
+//"My name is jordan" 
+
+//or 
+
+//"My name is JORDAN"
