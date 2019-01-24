@@ -1,0 +1,33 @@
+name = "Jordan"
+
+def upper(string)
+  string.upcase
+end
+
+def lower(string)
+  string.downcase
+end
+
+def random_name
+  ["Ana", "Ollie"].sample
+end
+# Please write your code between this line...
+
+# ...and between this line
+
+puts "My name is #{random_name()}"
+
+
+//Same as before, please don't edit or amend any of the code we've provided.
+
+//Now you're moving on to randomisation. We'd like you to return one of two names at random through a method. 
+
+//So your output from a method called random_name should either be:
+
+//"My name is Ana" 
+
+//or 
+
+//"My name is Ollie"
+
+//Think about the problem before writing any code. How you would structure your answer? What Ruby syntax would solve the problem and what would look the best? 
