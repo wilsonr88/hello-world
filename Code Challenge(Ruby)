@@ -9,3 +9,17 @@ my_name = "Jordan"
 # ...and above this line.
 
 puts "My name is #{upper(my_name)}"
+
+ 
+//Write a method called upper that will output Jordan all in upper case. 
+
+Note that we're passing the variable my_name as argument when we’re calling the method, that should give you a hint on what you need to include. Please don't change any of our code, you can only write new code or reuse previous code.
+
+Your output should read as below : 
+
+My name is JORDAN
+
+Your method should be a template - this can then be used for any variables that are passed through it. Have a look at one of our posts about how to think like a programmer here : http://bit.ly/think-like-a-programmer
+
+By writing good, clean code - the same method should answer both questions in one and pass this section.//
+
