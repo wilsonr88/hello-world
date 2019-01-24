@@ -1,0 +1,52 @@
+name = "Jordan"
+
+def upper(string)
+  string.upcase
+end
+
+def lower(string)
+  string.downcase
+end
+
+def random_name
+  ["Ollie", "Ana"].sample
+end
+
+def random_case(string)
+  [upper(string), lower(string)].sample
+end
+
+def random_both 
+ random_case(random_name)
+end
+
+
+# Please write your code between this line...
+
+# ... and this line
+
+puts "My name is #{random_both()}"
+
+
+
+
+
+//This is it! The final challenge. We're going to take everything we've learnt so far to write some really nice bit of clean code between lines 19 and 21.
+
+//We want to return either:
+
+//'My name is OLLIE'
+
+ //or 
+
+//'My name is ollie' 
+
+//or 
+
+//"My name is ANA" 
+
+//or 
+
+//"My name is ana"
+
+ //to the console, AT RANDOM!
