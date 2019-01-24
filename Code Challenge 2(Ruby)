@@ -1,0 +1,24 @@
+my_name = "Jordan"
+
+  def upper(string)
+    string.upcase
+  end
+  
+  def lower(string)
+    string.downcase
+  end
+  
+# Please write your code between this line...
+  
+# ... and above this line
+
+puts "My name is #{lower(my_name)}"
+
+
+//Now to create your next method. We've learnt how to make something all upper case. We now want to write out a method that will output Jordan in all lower case. Again, our new method needs to be scalable, so should return any name that's passed through to lower. It just so happens that the name in question here is Jordan.
+
+//Your output should read as below:
+
+//My name is jordan
+
+//Remember to not delete or edit any of the code we've supplied. Please enter your code solution between lines 7 and 9. You can move these lines apart as you wish to make room for your new code.
