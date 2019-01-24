@@ -1,0 +1,11 @@
+my_name = "Jordan"
+
+# Please write your code below this line...
+  def upper(string)
+      string.upcase
+  end
+  
+
+# ...and above this line.
+
+puts "My name is #{upper(my_name)}"
